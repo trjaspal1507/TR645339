@@ -7,11 +7,14 @@ DEMO WEBSITE DATA UPDATE
 
    .\convert-excel-to-json.ps1 -ExcelFile "C:\path\to\your-data.xlsx"
 
-4. Nayi candidates.json file ko GitHub repository me existing candidates.json par upload/replace karein.
-5. Commit changes dabayein. GitHub Pages 1-3 minute me update ho jayega.
-6. Candidate URL:
+4. Script do files banayegi:
+   - candidates.json (website data)
+   - candidate-links.csv (har candidate ka exact 200-character link)
+5. Nayi candidates.json file ko GitHub repository me existing candidates.json par upload/replace karein.
+6. Commit changes dabayein. GitHub Pages 1-3 minute me update ho jayega.
+7. Candidate ka link candidate-links.csv se copy karein.
 
-   https://trjaspal1507.github.io/TR645339/?id=CANDIDATE_ID
+   Har generated URL exactly 200 characters ka hoga.
 
 Candidate ID aur Document ID unique rakhein.
 Public page ka DEMO / NOT OFFICIAL banner na hatayein.
