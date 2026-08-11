@@ -5,6 +5,25 @@ param(
 
 $ErrorActionPreference = "Stop"
 $required = @("Candidate Name","Candidate ID","Sector Name","QP Name","QP Code","QP Version","Grade","Document ID","Issuance Date","Valid Upto","Type")
+$baseUrl = "https://trjaspal1507.github.io/TR645339/?token="
+$targetUrlLength = 200
+
+function New-StableToken([string]$candidateId, [string]$documentId, [int]$length) {
+    $sha = [Security.Cryptography.SHA256]::Create()
+    try {
+        $token = ""
+        $counter = 0
+        while ($token.Length -lt $length) {
+            $inputText = "DEMO|$candidateId|$documentId|$counter"
+            $bytes = [Text.Encoding]::UTF8.GetBytes($inputText)
+            $hash = $sha.ComputeHash($bytes)
+            $token += ([BitConverter]::ToString($hash).Replace("-", "").ToLowerInvariant())
+            $counter++
+        }
+        return $token.Substring(0, $length)
+    }
+    finally { $sha.Dispose() }
+}
 
 function Get-ColumnNumber([string]$cellReference) {
     $letters = ($cellReference -replace '[^A-Z]', '')
@@ -66,6 +85,7 @@ try {
     }
 
     $records = [ordered]@{}
+    $linkRows = @()
     for ($index = 1; $index -lt $rows.Count; $index++) {
         $row = $rows[$index]
         $candidateId = ([string]$row[$headers["Candidate ID"]]).Trim().ToUpperInvariant()
@@ -77,23 +97,40 @@ try {
         $issued = if ($issuedRaw -match '^\d+(\.\d+)?$') { [DateTime]::FromOADate([double]$issuedRaw).ToString("dd-MMM-yyyy", [Globalization.CultureInfo]::InvariantCulture) } else { $issuedRaw }
         $valid = if ($validRaw -match '^\d+(\.\d+)?$') { [DateTime]::FromOADate([double]$validRaw).ToString("dd-MMM-yyyy", [Globalization.CultureInfo]::InvariantCulture) } else { $validRaw }
 
+        $documentId = ([string]$row[$headers["Document ID"]]).Trim()
+        $tokenLength = $targetUrlLength - $baseUrl.Length
+        $token = New-StableToken $candidateId $documentId $tokenLength
+        $verificationUrl = $baseUrl + $token
+        if ($verificationUrl.Length -ne $targetUrlLength) { throw "URL length generation failed for $candidateId" }
+
         $records[$candidateId] = [ordered]@{
+            candidateId = $candidateId
+            token = $token
             name = ([string]$row[$headers["Candidate Name"]]).Trim()
             sector = ([string]$row[$headers["Sector Name"]]).Trim()
             qpName = ([string]$row[$headers["QP Name"]]).Trim()
             qpCode = ([string]$row[$headers["QP Code"]]).Trim()
             version = ([string]$row[$headers["QP Version"]]).Trim()
             grade = ([string]$row[$headers["Grade"]]).Trim()
-            documentId = ([string]$row[$headers["Document ID"]]).Trim()
+            documentId = $documentId
             issued = $issued
             valid = $valid
             type = ([string]$row[$headers["Type"]]).Trim()
+        }
+        $linkRows += [pscustomobject]@{
+            "Candidate Name" = ([string]$row[$headers["Candidate Name"]]).Trim()
+            "Candidate ID" = $candidateId
+            "Document ID" = $documentId
+            "Verification URL" = $verificationUrl
+            "URL Length" = $verificationUrl.Length
         }
     }
 
     $output = Join-Path $PSScriptRoot "candidates.json"
     $records | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $output -Encoding UTF8
-    Write-Host "Created $output with $($records.Count) demo records."
+    $linksOutput = Join-Path $PSScriptRoot "candidate-links.csv"
+    $linkRows | Export-Csv -LiteralPath $linksOutput -NoTypeInformation -Encoding UTF8
+    Write-Host "Created $output and $linksOutput with $($records.Count) demo records."
 }
 finally {
     $archive.Dispose()
