@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $required = @("Candidate Name","Candidate ID","Sector Name","QP Name","QP Code","QP Version","Grade","Document ID","Issuance Date","Valid Upto","Type")
-$baseUrl = "https://trjaspal1507.github.io/TR645339/?token="
+$baseUrl = "https://trjaspal1507.github.io/documentverificationbyQRcontent/?token="
 $targetUrlLength = 200
 
 function New-StableToken([string]$candidateId, [string]$documentId, [int]$length) {
