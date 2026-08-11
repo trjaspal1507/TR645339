@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: #050505; background: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+a { color: inherit; text-decoration: none; }
+
+.top-stripe { height: 10px; background: #223b37; }
+.utility-bar { height: 33px; background: #f0f0f0; border-bottom: 3px solid transparent; border-image: linear-gradient(90deg, #8fd025 0 33%, #008ed1 33% 66%, #e3002b 66%) 1; }
+.utility-actions { width: 380px; height: 30px; margin-left: auto; margin-right: 12px; display: flex; align-items: stretch; }
+.utility-actions a { min-width: 112px; padding: 7px 20px 0; text-align: center; font-family: Georgia, serif; font-size: 14px; }
+.utility-actions .support { width: 155px; padding-left: 4px; padding-right: 4px; }
+.utility-actions .login { min-width: 82px; color: #fff; background: #ed7a21; }
+
+.brand-row { height: 90px; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; overflow: hidden; }
+.screenshot-crop { position: relative; display: block; overflow: hidden; }
+.screenshot-crop img { position: absolute; display: block; max-width: none; width: 1365px; height: auto; }
+.kaushal { width: 275px; height: 82px; }
+.kaushal img { left: -145px; top: -43px; }
+.skill-india { width: 135px; height: 84px; }
+.skill-india img { left: -608px; top: -43px; }
+.kushal { width: 275px; height: 82px; }
+.kushal img { left: -900px; top: -43px; }
+
+nav { height: 50px; background: #f47b18; box-shadow: 0 8px 14px rgba(0,0,0,.17); display: flex; align-items: center; }
+nav a { margin-left: 35px; color: white; font-size: 15px; }
+
+.certificate { min-height: 540px; padding-top: 25px; display: flex; flex-direction: column; align-items: center; }
+.verified-badge { width: 70px; height: 70px; margin-bottom: 8px; background: #3296ed; color: white; display: grid; place-items: center; font-size: 45px; font-weight: bold; line-height: 1; clip-path: polygon(50% 0%,61% 9%,75% 5%,82% 18%,95% 25%,91% 39%,100% 50%,91% 61%,95% 75%,82% 82%,75% 95%,61% 91%,50% 100%,39% 91%,25% 95%,18% 82%,5% 75%,9% 61%,0 50%,9% 39%,5% 25%,18% 18%,25% 5%,39% 9%); }
+.verified-title { color: #248bf0; font-size: 15px; margin-bottom: 7px; }
+dl { width: 420px; margin: 0; }
+dl div { display: grid; grid-template-columns: max-content 1fr; min-height: 35px; align-items: start; }
+dt, dd { margin: 0; line-height: 20px; }
+dt { margin-right: 5px; }
+
+footer { min-height: 245px; padding: 0 7vw 28px; background: white; }
+.footer-inner { max-width: 1125px; margin: 0 auto; display: grid; grid-template-columns: 350px 150px 260px 150px; column-gap: 30px; align-items: start; }
+footer h2 { margin: 0 0 12px; font-size: 18px; font-weight: 400; }
+.link-columns { display: grid; grid-template-columns: 160px 170px; gap: 30px; }
+.link-columns a { display: block; margin-bottom: 12px; font-size: 14px; }
+.contact-section a { display: flex; align-items: center; gap: 11px; margin: 31px 0 43px; }
+.social-icon { width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; background: #555; color: white; font-family: Arial; font-size: 13px; font-weight: bold; }
+.twitter { font-size: 8px; }
+.app-item { margin-bottom: 19px; }
+.app-item p { margin: 0 0 16px; white-space: nowrap; }
+.play-badge { width: 180px; height: 53px; }
+.play-badge img { left: -690px; top: -196px; }
+.partner-logos { display: flex; height: 225px; flex-direction: column; justify-content: space-between; align-items: center; padding-top: 5px; }
+.nsdc { width: 115px; height: 87px; }
+.nsdc img { left: -970px; top: -168px; }
+.ncs { width: 100px; height: 55px; }
+.ncs img { left: -975px; top: -346px; }
+
+@media (max-width: 900px) {
+  .brand-row { grid-template-columns: 1fr 130px 1fr; }
+  .kaushal, .kushal { transform: scale(.72); }
+  .footer-inner { grid-template-columns: 1fr 1fr; row-gap: 35px; }
+}
+@media (max-width: 620px) {
+  .utility-actions { width: 100%; margin: 0; justify-content: flex-end; }
+  .utility-actions a { min-width: auto; padding-left: 10px; padding-right: 10px; }
+  .brand-row { grid-template-columns: 1fr 100px 1fr; }
+  .kaushal, .kushal { transform: scale(.48); }
+  .skill-india { transform: scale(.72); }
+  .certificate { padding-left: 20px; padding-right: 20px; }
+  dl { width: 100%; max-width: 420px; }
+  .footer-inner { grid-template-columns: 1fr; }
+  .partner-logos { flex-direction: row; height: auto; justify-content: flex-start; gap: 45px; }
+}
