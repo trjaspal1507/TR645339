@@ -9,12 +9,13 @@ DEMO WEBSITE DATA UPDATE
 
 4. Script do files banayegi:
    - candidates.json (website data)
-   - candidate-links.csv (har candidate ka exact 200-character link)
+   - candidate-links.csv (har candidate ka exact 400-character token wala link)
 5. Nayi candidates.json file ko GitHub repository me existing candidates.json par upload/replace karein.
 6. Commit changes dabayein. GitHub Pages 1-3 minute me update ho jayega.
 7. Candidate ka link candidate-links.csv se copy karein.
 
-   Har generated URL exactly 200 characters ka hoga.
+   Har generated token exactly 400 characters ka hoga. Pura URL domain aur ?token= milakar isse lamba hoga.
 
 Candidate ID aur Document ID unique rakhein.
 Public page ka DEMO / NOT OFFICIAL banner na hatayein.
+
