@@ -84,13 +84,26 @@ try {
         if (-not $headers.ContainsKey($heading)) { throw "Missing column: $heading" }
     }
 
+    $output = Join-Path $PSScriptRoot "candidates.json"
     $records = [ordered]@{}
-    $linkRows = @()
+    if (Test-Path -LiteralPath $output) {
+        $existingJson = Get-Content -Raw -LiteralPath $output | ConvertFrom-Json
+        foreach ($property in $existingJson.PSObject.Properties) {
+            $records[$property.Name.ToUpperInvariant()] = $property.Value
+        }
+    }
+    $existingCount = $records.Count
+    $addedCount = 0
+    $skippedCount = 0
     for ($index = 1; $index -lt $rows.Count; $index++) {
         $row = $rows[$index]
         $candidateId = ([string]$row[$headers["Candidate ID"]]).Trim().ToUpperInvariant()
         if (-not $candidateId) { continue }
-        if ($records.Contains($candidateId)) { throw "Duplicate Candidate ID: $candidateId" }
+        if ($records.Contains($candidateId)) {
+            $skippedCount++
+            Write-Host "Skipped existing Candidate ID: $candidateId"
+            continue
+        }
 
         $issuedRaw = ([string]$row[$headers["Issuance Date"]]).Trim()
         $validRaw = ([string]$row[$headers["Valid Upto"]]).Trim()
@@ -116,20 +129,26 @@ try {
             valid = $valid
             type = ([string]$row[$headers["Type"]]).Trim()
         }
-        $linkRows += [pscustomobject]@{
-            "Candidate Name" = ([string]$row[$headers["Candidate Name"]]).Trim()
-            "Candidate ID" = $candidateId
-            "Document ID" = $documentId
+        $addedCount++
+    }
+
+    $linkRows = foreach ($entry in $records.GetEnumerator()) {
+        $record = $entry.Value
+        $recordToken = [string]$record.token
+        $verificationUrl = $baseUrl + $recordToken
+        [pscustomobject]@{
+            "Candidate Name" = [string]$record.name
+            "Candidate ID" = $entry.Key
+            "Document ID" = [string]$record.documentId
             "Verification URL" = $verificationUrl
             "URL Length" = $verificationUrl.Length
         }
     }
 
-    $output = Join-Path $PSScriptRoot "candidates.json"
     $records | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath $output -Encoding UTF8
     $linksOutput = Join-Path $PSScriptRoot "candidate-links.csv"
     $linkRows | Export-Csv -LiteralPath $linksOutput -NoTypeInformation -Encoding UTF8
-    Write-Host "Created $output and $linksOutput with $($records.Count) demo records."
+    Write-Host "Preserved $existingCount existing records, added $addedCount new records, skipped $skippedCount duplicate Candidate IDs. Total: $($records.Count)."
 }
 finally {
     $archive.Dispose()
