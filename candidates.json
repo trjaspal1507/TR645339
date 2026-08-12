@@ -125,4 +125,17 @@
                      "valid":  "08-Apr-2028",
                      "type":  "Certificate"
                  }
-}
+"TR652432":  {
+                     "candidateId":  "TR652432",
+                     "token":  "6pgfFehmx36vOxBP1ZBomaXtJfVTTQAFkIaeLSy1aADPiVZxtzECXRDAmaSet6SpYMKKH7MArHJKFKyKyzIF88cGY2732852APssmvrHBCJCD1UJsDxmMhQ6jim8XoZqBwSrMo0I4Zhthltp9i9Z1DkH3Rbfi2PsOaFFHwmuzFA628Jj7jhcQ1MVlSAU4d65AtBL9BB7Uc0G0h5YaD1KuoBkLWOu3iXH3wSM0jMmIcrjwt5BjdBAulhxVwcADqBCUybZ5Rld74VdAgr9irRQKBDgAQkQ98LTowd5FOPM2sOyxcfFDhBtiXf0HKIestEVCUP7XzQDTdb7Qej4eBZfALpTwVumIQOgk38SlImpWLcYDQmClluYXxo",
+                     "name":  "Km Sarita",
+                     "sector":  "Handicrafts & Carpet",
+                     "qpName":  "Traditional Hand Embroiderer",
+                     "qpCode":  "HCS/Q7301",
+                     "version":  "3.0",
+                     "grade":  "B",
+                     "documentId":  "3zM0C2yw53SqGHdjt",
+                     "issued":  "26-Sep-2025",
+                     "valid":  "26-Sep-2027",
+                     "type":  "Certificate"
+                 },
