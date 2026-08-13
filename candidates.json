@@ -418,5 +418,19 @@
     "issued": "05-Feb-2026",
     "valid": "05-Feb-2028",
     "type": "Certificate"
+  },
+  "TR692509": {
+    "candidateId": "TR692509",
+    "token": "imbYbah95zQKabBZMswGqcqLISTxADC1CRluLJY8evThM5CLWQiFthg1uFWtyF6Wpb60VzU2mUDu7hsdHg88gKaIlDXJluJgKawTQfDmaAA8gd8VdpYH7GYmHyHVFlPovFtPSUMrLYxPyIu0hpQPlaECcfJTXl9ZFOE7YRw58y9cADG8J0F4vROM0Zc64Xv4MoCKzy3CgL697U3lwI3IcTeTASw1etQ54TpQfRwlURwPXFPJrwduO0QlGHqyeCEh81gZGUes35l451ceribi3XYY5Tt9S6YjpmoQ4DCRtG0hC867S2ooOzi8jv8mqeEBpztmYizPZIsVBub4kG9mdZI5BO4tfdugvyiupHJQCk9s7pcAxciFxCjLzHLb6y77WSrxaQtu9boiiCDw",
+    "name": "Ram Krishan Shukla",
+    "sector": "Retail",
+    "qpName": "Retail Sales Assistant",
+    "qpCode": "RAS/Q0103",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "MWqYgVu8at1mtbHC",
+    "issued": "12-Feb-2026",
+    "valid": "12-Feb-2028",
+    "type": "Certificate"
   }
 }
