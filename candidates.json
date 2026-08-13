@@ -236,5 +236,19 @@
     "issued": "02-Apr-2026",
     "valid": "02-Apr-2028",
     "type": "Certificate"
+ },
+  "TR692305": {
+    "candidateId": "TR692305",
+    "token": "sVJRrcHj6YrEdO1a1UThi7z8Uos1tlRz7sxzflkJO4h4wokfiJTZPOhDZ523HhlWmGkHiEEeYTcouSI9k62G3mbu3D36XY6jVVyy76rBk3M6Iy7fL4iXBWdOmxSTLL85kdfiFtioaRDVoZj45wkmdlQCbaatSmk7WTSwWibx30xZTrb0TB3fKAjoAeh1ofm8lUrt9gKe82VMBu2Em2ktsBf6MAUFVbRHoT1JMgxeBeJLMtVLJ9FYKA5ueQKSh8SVogu4GfA6r2uJk0eBRlB8EfsyYQgRzG9Gxg6vwTXEBebGp2i6sqH0TIhT8xFpDS8R0U9ULt8HeoQAzCgtrV5ZVdBhQtTCPY3YbfAhhgWSiwXXHX7OVV0GdtSl7eevEkFLmBmgo9R7yBBhTkAD",
+    "name": "Pratishtha Gupta",
+    "sector": "Telecom",
+    "qpName": "Telecom Grameen Udhyami",
+    "qpCode": "TEL/Q4302",
+    "version": "1.0",
+    "grade": "B",
+    "documentId": "8cag4Q2egAP03RXK",
+    "issued": "07-Apr-2026",
+    "valid": "07-Apr-2028",
+    "type": "Certificate"
   }
 }
