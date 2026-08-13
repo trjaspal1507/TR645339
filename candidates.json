@@ -390,5 +390,19 @@
     "issued": "15-Jul-2025",
     "valid": "15-Jul-2027",
     "type": "Certificate"
+	  	},
+  "TR529677": {
+    "candidateId": "TR529677",
+    "token": "uE7X5XKEWHrd936sLBCY71hdkdamCX4MEBDHW17p4bw5yRf9dKETDsT58RgVHyDv3Yva2YIko4904rUvfyLJCu0J4Fch7TdXoDklhaDT2IrlEHTvmHsq8OE1eEa2LXftAT9pK6jtZ6HEyd28t9x94d5FbrmvJOK130IDLgKd9QeSVLBZaw8ysZxxsB3xydMHCkBK5FLTzwXFbL5x8bAPLJht7G0tkpH4FWgG9u4hlE5ucwbhGSw7dTz6ajVdUBLYxDjT7uPtQu3QVB53sPJddRLwIQYzrtVOECW89s7L6lFUrVUupP0mMJVGq7hXEvtXRSLpwhXPz1csCRr1srp57etpQLtyRtUvt6p8IlFVkzKlA3JK49QvfMJAGit2kApRfu5KF1vlCxMXRXua",
+    "name": "Ankit Yadav",
+    "sector": "Handicrafts and Carpet",
+    "qpName": "Traditional Hand Embroiderer",
+    "qpCode": "HCS/Q7301",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "vsDajxRVEKGg86OC",
+    "issued": "15-Jul-2025",
+    "valid": "15-Jul-2027",
+    "type": "Certificate"
   }
 }
