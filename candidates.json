@@ -250,5 +250,19 @@
     "issued": "07-Apr-2026",
     "valid": "07-Apr-2028",
     "type": "Certificate"
+   },
+  "TR475645": {
+    "candidateId": "TR475645",
+    "token": "EXPDsi2pie23eYFVZESaVWOZ4cmSB2zs9eVae5ufFu4ffeAEXucArVzM8vuZQ5RcjcI71fRcqlYkKAil6WjeyY1qEpf5vD4hSYWxq4fW9wgtI5QM36LH7g43fdLpgjuwbCVDyD7UW27lRk0gLgS8m5ly2309KPWUbrmXGDZATQeviizl6RamiJjC8OlLGKzsS3kUDYw48dQMypIOYJihr8DDR8eWhLQEciBavHTw9yQkaOGLBp3ep8vMquqK3qv4MWHEOaXdUT2weXWFIg8mFqvf6djaEIqwMj2tHimDfVaRfUiqWFFqv3XTR11ErFCx4Qxk5L1v6JDpTMD3qSIPAs2k5C8YkDY69tfQ9MOlMR1MlcA8aiQI0gZAWMBrX3jI1Pe6bha29RRo5boc",
+    "name": "Rinku Yadav",
+    "sector": "Telecom",
+    "qpName": "Telecom Grameen Udhyami",
+    "qpCode": "TEL/Q4302",
+    "version": "1.0",
+    "grade": "B",
+    "documentId": "hmzPZAjbX0sQthOw",
+    "issued": "06-Apr-2026",
+    "valid": "06-Apr-2028",
+    "type": "Certificate"
   }
 }
