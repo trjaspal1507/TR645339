@@ -27,6 +27,20 @@
     "valid": "26-Sep-2027",
     "type": "Certificate"
   },
+  "TR652432": {
+    "candidateId": "TR652432",
+    "token": "fe6468d9b2dd5ae9b5942b1e9db8f634763f8114cb635c587cd56ca39c372c85094871fda98658aead63985d7ca4f095519d1b6abb158ef7fe71d187cfd6835e506c6ea5b8577c5f6e2a15aea9378ba61520b45ed013dab3cf229a20c83cd9746cea697baebb210c0a5aace1b3f80960a4b6fae09d3bba71a83140c6d574615faf6057654d3e183a0433c11bb364ee24d0f91107c0c7abf9ddd567f64be1428eddb2c592f4e6298629daaa283a863cf36634610b112dcb603dd43adc9c1f3ba198a0e215c90ef50f",
+    "name": "Km jaspala",
+    "sector": "Handicrafts & Carpet",
+    "qpName": "Traditional Hand Embroiderer",
+    "qpCode": "HCS/Q7301",
+    "version": "3.0",
+    "grade": "B",
+    "documentId": "dfg56cad1vcdb10k3bv",
+    "issued": "26-Sep-2025",
+    "valid": "26-Sep-2027",
+    "type": "Certificate"
+  },
   "TR475645": {
     "candidateId": "TR475645",
     "token": "b628dfc1fa6275141c704a579feade95c8a2e32627ee80538fd56ca119d269e5ea065e2cc009cc4c8bb12c891665d19b731d2e55092c4c38471a6aa859b3f53bf7655540365fbc2e11692d6accc1807f4b7eb81ee84edea46c8566ec25cc4392e04f5128e0d6135e8d2f0aa36cebd317caf017ba43167e814376ce42b52fb77f678f9a306932b3d6ccb60ffc48e72dff05fb48e97b133103b999939d4ac5f321be089c2d11cc9ea8c5fda6749384bf6ed78e18a7ffaed2360585aa1c18cdba45f4dea3ef1ac665e4",
