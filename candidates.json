@@ -208,5 +208,19 @@
     "issued": "10-Apr-2026",
     "valid": "10-Apr-2028",
     "type": "Certificate"
+     },
+  "TR692485": {
+    "candidateId": "TR692485",
+    "token": "PdaMTqWmDOTZVfUsZLRb5bkCOiGIecsLCLhOwYR4RHH719JQrCKAieAusJSjRJG0fe5y0wc4ja7JOCuOXy07zWwx1ET8gCl9HXVbX6I8vBpgRYgBm7JoVHjyRtX1vBuRi1zbKk6HzQiEcMIU7P2lo4be7a04oYm8C0yPYoRyIAtaQEwgZTOmLOrqcOAI0pYGY5xUVZ5CeL66oaIQ2ZkK0AEbH4E6kJe9EMQxJ1Bd3iotrmKZj3DzCBh22uLQzQfXh7OjZlypj4QsJSTOau4DMJJEF637CxyM6zdX7Q8tpp060XqzcvcHdR329GYYSSlRSwQtmmtc48ijgFiaCptyWoPtDJYw2iuB2ImywjqAu8WhpZWw4cRVBl72scEWwqQ2SXxzoZC4IuSpMXwD",
+    "name": "Suneel Kumar",
+    "sector": "Telecom",
+    "qpName": "Telecom Grameen Udhyami",
+    "qpCode": "TEL/Q4302",
+    "version": "2.0",
+    "grade": "B",
+    "documentId": "ZmRFVTI5WY1YtcLS",
+    "issued": "17-Feb-2026",
+    "valid": "17-Feb-2028",
+    "type": "Certificate"
   }
 }
