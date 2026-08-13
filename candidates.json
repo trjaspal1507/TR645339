@@ -166,5 +166,19 @@
     "issued": "08-Apr-2026",
     "valid": "08-Apr-2028",
     "type": "Certificate"
+  },
+  "TR643314": {
+    "candidateId": "TR643314",
+    "token": "aR64ztMe1WHSQGkYWKl0amKB0TDD1Qu17uCBylQCgYc0KBOxTatWoMhOhHAETPQPBZkfdS8elIptXq0CluXkBAKjlm2vz8DsGQMmYTO8h3Q1kvrA00Y3cSBQMClum2htr7eYbmgSTOW9jcWb1aj5E2h9YLSwYbYrdY8if1xOg5MzIZEFicGK5GDFRkVsC6vl7qDk1gyfSpVdVYwVJbqHXPbwEXL10S3ykh5qtFDPo3EGA29prx2RuKX8fdarBumIiooQmSI8hXybphHTivked1FbRD7ckPw6s3VzuqTDkU6LioAQzKaVTaAhmVhh3Lqs0i3a5ffSbuaWs4IjHC4pm2d5TH0j0brfa2cyMoQ6j8DOYJrGts0oDc9RhZx05xzvdICrWxxyyjRtWo7a",
+    "name": "Garima Goswami",
+    "sector": "Telecom",
+    "qpName": "Telecom Grameen Udhyami",
+    "qpCode": "TEL/Q4302",
+    "version": "2.0",
+    "grade": "B",
+    "documentId": "P7AJgRG7eDVbhiWe",
+    "issued": "10-Mar-2026",
+    "valid": "10-Mar-2028",
+    "type": "Certificate"
   }
 }
