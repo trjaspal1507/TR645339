@@ -586,6 +586,33 @@
     "issued": "11-Jun-2025",
     "valid": "11-jun-2027",
     "type": "Certificate"
-	
+	  },
+  "TR663391": {
+    "candidateId": "TR663391",
+    "token": "2XAiL6h0ruiJr8O1ddoQ0MDRKDmiM6Jol7jVQm0s0RX3Pocgo7LFkCe8IME9uT0iKm9b4StEp7GOLJ5EAcw8eHfUozKYwCd68hDjvfsjaRmTFb83Q69FaAMfIhxj2rMRD3mf9I5wwGGr4pOtYGl3hh9QuVWWlTfWduUUF713ULDyIapyhOqs033hICHOqgYVg9xUWvzTFGQd54PBoxKsBAL4i3sZjeacYdSUB0Z2J5oyzvCeLDXU2YaOQLXCVkg5QFcKzvA00TxP6pImYYbXlhoBSFGGpoMR1KG1ixqXHyzEsJV4cMwcICoqKxPRR0QGKxM8p2wGe4XSfLgTiGbzprVc1qFvtBopVLTHsUff2VGkgkPUEKkCZ22zWEbw7g0tka6lmGblMtjqTcFc",
+    "name": "Monesh Kumar Shakya",
+    "sector": "Retail",
+    "qpName": "Retail Sales Assistant",
+    "qpCode": "RAS/Q0103",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "GOuqKIeDOBbXxlTm",
+    "issued": "12-Feb-2026",
+    "valid": "12-Feb-2028",
+    "type": "Certificate"
+	  },
+  "TR653228": {
+    "candidateId": "TR653228",
+    "token": "2XAiL6h0ruiJr8O1ddoQ0MDRKDmiM6Jol7jVQm0s0RX3Pocgo7LFkCe8IME9uT0iKm9b4StEp7GOLJ5EAcw8eHfUozKYwCd68hDjvfsjaRmTFb83Q69FaAMfIhxj2rMRD3mf9I5wwGGr4pOtYGl3hh9QuVWWlTfWduUUF713ULDyIapyhOqs033hICHOqgYVg9xUWvzTFGQd54PBoxKsBAL4i3sZjeacYdSUB0Z2J5oyzvCeLDXU2YaOQLXCVkg5QFcKzvA00TxP6pImYYbXlhoBSFGGpoMR1KG1ixqXHyzEsJV4cMwcICoqKxPRR0QGKxM8p2wGe4XSfLgTiGbzprVc1qFvtBopVLTHsUff2VGkgkPUEKkCZ22zWEbw7g0tka6lmGblMtjqTcFc",
+    "name": "Indrabhan Singh",
+    "sector": "Retail",
+    "qpName": "Retail Sales Assistant",
+    "qpCode": "RAS/Q0103",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "BxKdEcfxe5E8dlyb",
+    "issued": "12-Feb-2026",
+    "valid": "12-Feb-2028",
+    "type": "Certificate"
   }
 }
