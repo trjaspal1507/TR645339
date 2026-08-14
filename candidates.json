@@ -474,5 +474,61 @@
     "issued": "06-May-2025",
     "valid": "06-May-2027",
     "type": "Certificate"
+  },
+  "TR612218": {
+    "candidateId": "TR612218",
+    "token": "GR1KXTqzX2ZPQzmdTmPPHmrKi318COTRP7sp9MXBqGj2Hh3ACIGx0VTYtYfe4WA2VXU0LB0kJYWTbusO424T1UUI1yfgYouyjcFUzrvRPyRgu265G5M1oFol2Eq9p3XiL9LS9xfK6lMTl8BD7Dp2rSezhyM3tvKe7fGU5RKkHMBRFCsFG7zLouQggFvrZiRl1E60pt3Dt36DYR7bDWKdW1X6Uwy3i1rabfxWFl2GJr0sAt8Ss1cAf7f4m3DI2X7l3o0mUgODY1ZWafx64J5V1vqXlYkcUSZFUaLJ4BduSu4YhpQZd6DzMmTY2Hytkg8p0ApBtJGIXxsyBeF6IorbtQyORfFpc3wFQkGAF6r9jWKOZFp6Acey2f0Kv74LZmUzrJlmpWB9MeaDIRA3",
+    "name": "Surjeet Singh",
+    "sector": "Handicarft & Carpet",
+    "qpName": "Crochet Lace Tailor",
+    "qpCode": "HCS/Q7705",
+    "version": "3.0",
+    "grade": "B",
+    "documentId": "AUEBfa8rDrsJRYzZ",
+    "issued": "02-Feb-2026",
+    "valid": "02-Feb-2028",
+    "type": "Certificate"
+   },
+  "TR623126": {
+    "candidateId": "TR623126",
+    "token": "bk5Dj45yOtyVApI524khMUCc5bSCpZI7OU0eDRDYsP3qGC8ElEgpLCP8THH3Ew1SX1bf0OsFQPHp8YSEWCcOCz1X3kmrHVFMW3oqAjSAVtFXKHEf8TftqzbD8BlHXbCKSgCXKyJgI2PQgZpjxaf91XRiyH8LYhfw2TMmmUDKxqfvKP71vZGm4gUrxx4rstLIx2C8GC0XVr870Uk4e09PsytoRVTdFqZxvH7488ox05FbqBwlGWD1IGhEeOJVIK8fQFymUu6lauSohP23530QXeXaj8zempgXe32epgPStJhud2LIv6wew4i721g1pYHADGp6iUsgdqIaTvMcs34aMgh7JSPdm4Yb8MtH3ovUcqfSJJwbVzdtSpYYP5BUdCUP6oVcABtOJOsoHd6o",
+    "name": "Sudeep Sharma",
+    "sector": "Handicarft & Carpet",
+    "qpName": "Crochet Lace Tailor",
+    "qpCode": "HCS/Q7705",
+    "version": "3.0",
+    "grade": "B",
+    "documentId": "DUbSw760WTXIGtzw	",
+    "issued": "02-Feb-2026",
+    "valid": "02-Feb-2028",
+    "type": "Certificate"
+     },
+  "TR156739": {
+    "candidateId": "TR156739",
+    "token": "oqIBBwcwSkwyOQeH0k2sWjsc3qZaQtx5tEY4oypYcyITgSYu8Ii6Lf3UBi7bgeBlkITtvUklmzrEadCvCBZQQPwvrZuQQbY54wIWHDEbOCdwI0bSC2v2UKdawiTWc6Lkmuhz65OqzyK7JRLYwDlca8HuHTXhiBfiKdkAQhYFMYswdrvp3Zkzom2FewSev9xfAIukjCldFSmJu9vr4EzYFgj2I2RH0uhAhWa9v7XwCeQUt1qFMAaaMSCqx0HQBpSKOHLeYG7PD0mEYMAhAHxPLUgV9sCcWPaYdRHKS7p6250I1HXJsK2PiD0UAZDDFPt1uClrvajqBxjcW05dy24ehBgcqHuZjaG4FXAKSwEMmhmTtjqAq4f0yRRCrWBpFW2Gz190uZWgjzY72Gf9",
+    "name": "Km Kirti Shakya",
+    "sector": "Electronicst",
+    "qpName": "Field Technician Computing and Peripherals",
+    "qpCode": "ELE/Q4601",
+    "version": "3.0",
+    "grade": "B",
+    "documentId": "CSb2l7caaZvV4vHm	",
+    "issued": "02-Feb-2026",
+    "valid": "02-Feb-2028",
+    "type": "Certificate"
+   },
+  "TR156421": {
+    "candidateId": "TR156421",
+    "token": "cmpQdP6p7TG594Bv7hidLoBAdZzrWZid9S07tokVgy9cJs6oQgLaGyMyj3i7MPmwW2iu6zSPp28gyUTl7P1XRD3rzTLyf2zfuBLLLtoWmOkl74qMD9P2A67GxULDPKSrp8eflj9uvaVbdpiMwMosMJvHz1AqOktHkE53pKmCQXhfRGmRmra4CvzSVQoUzo0lWeO4zZUTBJQEAo262CA5G7FUZpSKm8lDSkssiMZtMY5hppa6Oujc9m7sKqPZpf069sl3M0PkoeQpu4Mpc7tTp3VWzAY3XB5euaEZ2SBZHY388jMLR1aMGA2C87t3UyVcYYRao14W59WcV3tW3VCfPc6aysffx6KgcAbXfPIKdkuCkEQ2fCToTMPHzwQFc9ezu2z1goOMKzp0PcMG",
+    "name": "Rahul",
+    "sector": "Electronicst",
+    "qpName": "Field Technician Computing and Peripherals",
+    "qpCode": "ELE/Q4601",
+    "version": "3.0",
+    "grade": "B",
+    "documentId": "cPToo4Svm90kG4pX	",
+    "issued": "02-Feb-2026",
+    "valid": "02-Feb-2028",
+    "type": "Certificate"
   }
 }
