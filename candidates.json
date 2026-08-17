@@ -1217,5 +1217,33 @@
     "issued": "20-Nov-2025",
     "valid": "20-Nov-2027",
     "type": "Certificate"
+	   },
+  "TR682156": {
+    "candidateId": "TR682156",
+    "token": "Jc88yQSyFrKRuof5lpGsLfl1UA16Wq8jrv8SYvuoPjXmEbRUPoEuwT0uefo3upPBajRUxZR1XUAuACSYhUFCm6TSTaiaRmiVa3H6BpuBgtOZUHjUSWSILaTTAok66yS6H1yr6MIfVk7cyGYMIQo7IH5e13PyR6Y3wZi6vFg9MCw1QpKuomuuCxIgdduIcxhgkBsydgxF5bd29qckTfU4zfIpiZclyOa8GwPywwV2h3Odu5XYGEWtiK82ZyMezUyFJms53UcR5Zy6vp0rzrthSiU9pbmz3SI9Y27I7zoKt1h0aUFwSpXVwvTwiVuStXwlwTjukqBv8LZmScjYm9oSR3x0PPs0IZeUik0MgbBU4uycQcEH0FzYyW3qohQGhlQW0USIYsByDi2QQPA4",
+    "name": "Apurva Tripathi",
+    "sector": "Retail",
+    "qpName": "Retail Sales Assistant",
+    "qpCode": "RAS/Q0103",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "Cmfe1zECBCLh0z0L",
+    "issued": "21-Oct-2025",
+    "valid": "21-Oct-2027",
+    "type": "Certificate"
+	 },
+  "TR689765": {
+    "candidateId": "TR689765",
+    "token": "CzMGgmGCrV5wkR0JXqliwWYRuk74Smq5QHrtJdGG1gRM1bOaBVDcAC6AJLAqPlcYCWPYaUYP2LzXPDAHgFPrkJ67hX8ShjFzMM8prZVhp7GaQHPqjOpTJyZaqJMmSKSdGLYHpR46g6wcg6EhjjvVqIi5ZLMFbyiZjYm6Lo5UryWBImKFHiaxd9LM6QwpK86zWJjx7lGABgbdSbDmEJxxfOxt5dUStBDs6rXPKjUwtHe80UdiIlZ2cUpJP18L9O0rHgv3G6PcbUtKfGBrbox18zTtCbgAdM80y8LeWkTGaAE8Qee9GTRUMbF8g2MAyWSQ2bbzipsxwFyXjPo50cgVreMPXwf8Yso3uMbcSw2BOslZPp9OrMIzXBVA8oZsW6GkYELFqwYVu7ZEkZUW",
+    "name": "Shahnawaz Khaan",
+    "sector": "Retail",
+    "qpName": "Retail Sales Assistant",
+    "qpCode": "RAS/Q0103",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "2SxVLHOtPlPcyJ1W",
+    "issued": "21-Oct-2025",
+    "valid": "21-Oct-2027",
+    "type": "Certificate"
 	 }	 
 }
