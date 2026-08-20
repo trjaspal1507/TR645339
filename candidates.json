@@ -1371,5 +1371,19 @@
     "issued": "09-May-2025",
     "valid": "09-May-2027",
     "type": "Certificate"
+	   },
+  "TR689878": {
+    "candidateId": "TR689878",
+    "token": "jxekhJBGE7IEw5MiU1EwZA3CpYKq7xdDmOI36L4EUTfbGj4PCr8XedkylwHYsystCTgqF1Q6l2PrCIHV70q2z3arouHvvIV2128cZlM1p8wpfYwjGxMTCqypV1HQr09ErlZf21Vu5A3xmM6evPMrcjw90y4hsGSBL2b2hsrQXf2PHqfoHLh9paYdX0CMLFhYL9VubzvwW8dAOrcYgEq6ZT8SBzzeXAfvijPQeagxt9zCcEyxLqtWKesmoviL8MbRE6w57B0iAGau0ueh3062Wr89Vm08CfDQmYlCRqAq1jqFdqasFyV4e5HZuqSpo4eTwEVREZ1ZWVoA31KlvjaMf9DUQ2zmGImlaSil7RVY1K3cyoFg2BJ3hOUi9i0PZ3rPVz5qJgt941daXpr3",
+    "name": "Pooja Deval",
+    "sector": "Telecom",
+    "qpName": "Telecom Grameen Udhyami",
+    "qpCode": "TEL/Q4302",
+    "version": "1.0",
+    "grade": "B",
+    "documentId": "1kyEfiwdf7twVTB8",
+    "issued": "11-Feb-2025",
+    "valid": "11-Feb-2027",
+    "type": "Certificate"
 	}	 
 }
