@@ -1343,5 +1343,33 @@
     "issued": "06-Oct-2025",
     "valid": "06-Oct-2027",
     "type": "Certificate"
+	   },
+  "TR689087": {
+    "candidateId": "TR689087",
+    "token": "dUwwhOvC71tgMiGQvFQoYR3hCtGgrTLZZL8K0ye6AmGuBU4LhLGdGqmhwrHg0eM69xjH8YZzkXvi4ZUicIhlFPIq6RwPzrzWD8hGEv899RIdFpcaWlSCWV9aLSWkiOsCsu6yPcUIYPL9lEl7vBsLxotUBGfeBO4byhSuVEjt1VD2lbW5MkLDo7O2KjaYdZ9OPyUId39wVRd5mClXXI2jsY6epT18VKAxVDqRf95zAKaPZB7yVYOpY5JTWgAxShglxEovziB5Lf8LHwdRETfLDUu1U0Dp5RGBpsWI19P0ZgWopzf2OGYz6RQiIKmsKhHdVhBkUhZ8iKGd5wTscJPOIE9731YTCbFwQP5SAx4CHJESLCTQS1GvuJWrgeo2oC7L8rJ97Ch5fZkLHl0v",
+    "name": "Priti Yadav",
+    "sector": "Retail",
+    "qpName": "Merchant Relationship Executive",
+    "qpCode": "RAS/Q0301",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "76LuB5a2r7Z3yZWC",
+    "issued": "09-May-2025",
+    "valid": "09-May-2027",
+    "type": "Certificate"
+	 },
+  "TR686677": {
+    "candidateId": "TR686677",
+    "token": "uoVBP1CBMIsVi5vaxVvzpBrmtghVd8fUuY1cA1k7yEhovObIdKTTaY2Ft2AIYGDzFIDrwtG8DpxPohooYYmTpfHb71iuilCCKfLp82vkSHHWbuPX76tPkw8FkbkcE9PFVwidCrwBvhTh5JSHEb3Rl9xkgMDzove8zUSksWieOQzLFAWsTfFXLLthKVeshc5bE1T59hl7ASRJUzF4h6oWf65bcKSR2Svv7PBaQVdHgswJhW2MxKgvCJBvQTu2t6oWlrQMHKT9C7wEuxeFPAqgfbBt7URchxgR97ebdqw7gAmaD4P0SaXtO8gFST0uFU3wFS0OH7vSbqFAveUCci1QT9JuhclP0PTzLCdaoE6jO1I0YhTL3Pd2ZTGz1eOw69IJX8j3BeFi3h1Zge5J",
+    "name": "Saumya",
+    "sector": "Retail",
+    "qpName": "Merchant Relationship Executive",
+    "qpCode": "RAS/Q0301",
+    "version": "4.0",
+    "grade": "B",
+    "documentId": "cpDCZaWpvGEMqiwJ",
+    "issued": "09-May-2025",
+    "valid": "09-May-2027",
+    "type": "Certificate"
 	}	 
 }
